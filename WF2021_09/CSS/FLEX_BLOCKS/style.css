@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header {
+    text-align: center;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#dancing_kitties {
+    background-color: skyblue;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+#hallo_kitty {
+    background: lightsalmon;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}

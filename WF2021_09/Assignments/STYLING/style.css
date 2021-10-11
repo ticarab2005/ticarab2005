@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@1,100;1,200&family=Chau+Philomene+One&family=Quicksand:wght@600&display=swap');
+* {
+    padding: 0px;
+    margin: 5px
+}
+
+h1 {
+    background-color: black;
+    margin: 10px;
+    color: white;
+    font-size: 50px;
+    font-family: 'Chau Philomene One', sans-serif;
+    text-indent: 20px;
+}
+
+h2 {
+    background-color: rebeccapurple;
+    color: white; 
+    padding: 7px;
+    margin: 10px;
+    font-size: 30px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-style: italic;
+    text-align: center;
+
+}
+h3 {
+    background-color: lightskyblue;
+    color: purple;
+    padding: 7px;
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: right;
+    text-decoration: underline;
+}

@@ -1,0 +1,38 @@
+*{
+    background-color: ivory;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.containment {
+    justify-content: space-between;
+
+}
+.dancing_kitty {
+    background-color: skyblue;
+    height: 200px;
+    margin-bottom: 1.5em;
+    display: flex;
+    align-items: center;
+    border: skyblue;
+}
+
+.hallo_kitty {
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+
+}
+.build_a_kitty {
+    background-color: lightseagreen;
+    height: 200px;
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+.row {
+    justify-content: center;
+    display: flex;
+    gap: 1.5em;
+}
