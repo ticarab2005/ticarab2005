@@ -1,36 +1,45 @@
-/* * {
-    margin: 0;
-    padding: 0;
-} */
-
 .container{
     width: 950px;
     background-color: silver;
     margin: 0px auto;
+    padding: 1.5em;
 }
 .top-nav {
-    padding: 10px;
     height: 150px;
     background-color: green;
 }
 .side-nav {
     height: 300px;
     width: 200px;
+    margin-right: 15px;
+    margin-top: 1.5em;
+    padding: 0px;
     background-color: blue;
+    display: inline-block;
+    vertical-align: top;
 }
 .main {
     height: 400px;
-    width: 700px;
+    width: 680px;
     background-color: red;
+    margin-top: 25px;
+    padding: 1.5em;
+    display: inline-block;
 }
 .sub-content {
-    height: 200px;
+    height: 195px;
     width: 210px;
+    padding-top: .5em;
+    margin-right: .5em;
     background-color: yellow;
+    vertical-align: 25px;
+    display: inline-block;
 }
 #advertisement {
     height: 120px;
-    width: 660px;
+    width: 640px;
     background-color: purple;
+    padding: .5em;
+    display: inline-block;
 }
 
