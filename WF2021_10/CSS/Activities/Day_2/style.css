@@ -1,0 +1,16 @@
+.arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 200px solid transparent;
+    border-bottom: 200px solid transparent;
+    
+    border-left: 200px solid green;
+}
+
+.triangle_bottomright {
+    width: 0;
+    height: 0;
+    display: inline-block;
+    border-bottom: 100px solid red;
+    border-left: 100px solid transparent;
+}
