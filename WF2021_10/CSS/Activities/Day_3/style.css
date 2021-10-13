@@ -1,0 +1,50 @@
+/* CSS Reset */
+
+/* * {
+    /* include the border and the padding of the element in the width
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* Margin, padding, display inline-block, vertical align top */
+.container{
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+    padding: 20px;
+}
+.top-nav {
+    height: 150px;
+    background-color: green;
+    margin-bottom: 20px;
+}
+.side-nav {
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+}
+.main {
+    height: 400px;
+    width: 700px;
+    background-color: red;
+    padding: 13px;
+    display: inline-block;
+}
+.sub-content {
+    height: 200px;
+    width: 210px;
+    background-color: yellow;
+    display: inline-block;
+    margin-right: 12px;
+}
+#advertisement {
+    height: 120px;
+    width: 660px;
+    background-color: purple;
+    margin-top: 20px;
+}
+
