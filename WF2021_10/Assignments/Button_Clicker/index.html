@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="nav-bar">
+        <h1>Dojonary</h1>
+        <input type="text" name="search" id="search" placeholder="Search">
+        <button onclick="logout(this)" class="Logout">Login</button>
+    </nav>
+    <div id="skilled-ninja">
+        <div class="ninjutsu">
+            <div class="col">
+                <div class="space">
+                    <h2>ninja</h2>
+                    <h3>noun</h3>
+                    <h4>Pural: ninjas</h4>
+                    <button onclick="alert('Ninja was liked!')">37 likes</button>
+                </div>
+                <h5>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></h5>
+            </div>
+        <div class="col">
+                <div class="space">
+                    <h2>ninja</h2>
+                    <h3>noun</h3>
+                    <h4>Pural: ninjas</h4>
+                    <button onclick="liked(this)" class="liked">13 likes</button>
+                </div>
+                <h5>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></h5>
+            </div>
+        </div>
+    </div>
+    <div id="ninja-vanish">
+        <div class="mydef">
+            <p>Dojonary is the Yoda of Coding that solves problems efficietly</p>
+            <button onclick="hide(this)" class="hide">Add Definition</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

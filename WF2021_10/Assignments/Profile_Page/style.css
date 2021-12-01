@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Lexend Deca', sans-serif;
+    box-sizing: border-box;
+}
+
+#nav {
+    height: 75px;
+    padding-right: 152px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#navleft {
+    display: flex;
+    color: rgb(88, 83, 83);
+    font-size: 19px;
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+
+}
+#navleft ul {
+    display: flex; 
+    list-style: none;
+    width: 360px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.color {
+    color: white;
+}
+
+.btn {
+    background-color: rgb(17, 189, 172);
+    color: white;
+    width: 105px;
+    height: 37px;
+    font-size: 18px;
+    font-weight: bolder;
+    border: 3px solid black;
+    box-shadow: 2px 2px black;
+    
+}
+/* Start next block */
+.side-nav {
+    padding-top: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contain {
+    height: 405px;
+    margin-left: 400px;
+    margin-bottom: 40px;
+    border: 2px solid rgb(148, 146, 146);
+}
+
+.absolute {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.relative-parent {
+    position: relative;
+}
+
+.profile {
+    background-color: rgb(0, 145, 145);
+    min-height: 105px;
+    color: white;
+}
+
+.profile-pic {
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 130px;
+    border: 3px solid grey;
+}
+
+h2 {
+    margin-top: 90px;
+    padding: 5px 35px;
+    font-size: 30px;
+}
+
+.marker {
+    margin-left: 30px;
+    padding-left: 5px;
+    width: 22px;
+    height: 25px;
+}
+.font {
+    margin-left: 10px;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: super;
+}
+
+p {
+    margin: 5px 35px;
+    font-weight: 600;
+}
+
+.flexed {
+    display: flex;
+    align-items: center;
+}
+.gear {
+    width: 40px;
+    padding: 10px;
+    margin-left: 25px;
+}
+/* Start next block */
+.contain-2 {
+    height: 177px;
+    margin-left: 400px;
+    border: 2px solid rgb(148, 146, 146);
+}
+
+.education {
+    background-color:rgb(49, 49, 49);
+    min-height: 55px;
+    width: 576px;
+    display: flex;
+}
+
+h3 {
+    color: white;
+    display: flex;
+    padding-left: 30px;
+    align-items: center;
+}
+
+h4 {
+    padding-top: 15px;
+    margin-left: 35px;
+}
+
+.grey {
+    color: rgb(148, 146, 146);
+}
+.profile-2 {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.check {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.circle {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.side-nav2 {
+    display: inline-block;
+    padding-top: 30px;
+}
+.contain-3 {
+    display: grid;
+    height: 225px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    justify-items: center;
+    border: 2px solid rgb(148, 146, 146);
+}
+
+.connect {
+    background-color: rgb(49, 49, 49);
+    min-height: 50px;
+    width: 340px;
+}
+
+.con {
+    color: white;
+    display: inline block;
+}
+
+.contain-4 {
+    margin-left: 20px;
+    border: 2px solid rgb(136, 122, 122);
+}
+
+.you-connect {
+    background-color: rgb(49, 49, 49);
+    padding: 1px;
+    min-height: 75px;
+    width: 340px;
+}
+
+.connections {
+    padding: 10px;
+}
+
+.flexed-2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.view {
+    height: 50px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(136, 122, 122);
+}
